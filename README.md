@@ -1,4 +1,4 @@
-#[MATE: Masked Autoencoders are Online 3D Test-Time Learners](https://arxiv.org/abs/2211.11432#:~:text=We%20propose%20MATE%2C%20the%20first,not%20be%20anticipated%20during%20training.)
+# [MATE: Masked Autoencoders are Online 3D Test-Time Learners](https://arxiv.org/abs/2211.11432#:~:text=We%20propose%20MATE%2C%20the%20first,not%20be%20anticipated%20during%20training.)
 MATE is the first 3D Test-Time Training (TTT) method which makes 3D object recognition architectures robust to 
 distribution shifts which can commonly occur in 3D point clouds. 
 MATE follows the classical TTT paradigm of using an auxiliary objective to make the network robust to 
