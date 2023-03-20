@@ -1,0 +1,8 @@
+CUDA_VISIBLE_DEVICES=1 python main.py --tta --grad_steps 1 --online --disable_bn_adaptation --config cfgs/tta/shapenet.yaml --ckpts final_models/shapenet_jt_new.pth  --dataset shapenetcore --stride_step 500
+CUDA_VISIBLE_DEVICES=1 python main.py --tta --grad_steps 1 --online --disable_bn_adaptation --config cfgs/tta/shapenet.yaml --ckpts final_models/shapenet_jt_new.pth  --dataset shapenetcore --stride_step 400
+CUDA_VISIBLE_DEVICES=1 python main.py --tta --grad_steps 1 --online --disable_bn_adaptation --config cfgs/tta/shapenet.yaml --ckpts final_models/shapenet_jt_new.pth  --dataset shapenetcore --stride_step 300
+CUDA_VISIBLE_DEVICES=1 python main.py --tta --grad_steps 1 --online --disable_bn_adaptation --config cfgs/tta/shapenet.yaml --ckpts final_models/shapenet_jt_new.pth  --dataset shapenetcore --stride_step 100
+CUDA_VISIBLE_DEVICES=1 python main.py --tta --grad_steps 1 --online --disable_bn_adaptation --config cfgs/tta/shapenet.yaml --ckpts final_models/shapenet_jt_new.pth  --dataset shapenetcore --stride_step 50
+CUDA_VISIBLE_DEVICES=1 python main.py --tta --grad_steps 1 --online --disable_bn_adaptation --config cfgs/tta/shapenet.yaml --ckpts final_models/shapenet_jt_new.pth  --dataset shapenetcore --stride_step 25
+CUDA_VISIBLE_DEVICES=1 python main.py --tta --grad_steps 1 --online --disable_bn_adaptation --config cfgs/tta/shapenet.yaml --ckpts final_models/shapenet_jt_new.pth  --dataset shapenetcore --stride_step 5
+CUDA_VISIBLE_DEVICES=1 python main.py --tta --grad_steps 1 --online --disable_bn_adaptation --config cfgs/tta/shapenet.yaml --ckpts final_models/shapenet_jt_new.pth  --dataset shapenetcore --stride_step 1
