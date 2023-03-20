@@ -106,12 +106,15 @@ Scripts for pretraining, testing and test-time training can also be found in `co
 
 #### To cite us: 
 ```bibtex
-@InProceedings{mirza2023mate,
+@article{mirza2023mate,
     author    = {Mirza, M. Jehanzeb and Shin, Inkyu and Lin, Wei and Schriebl, Andreas and Sun, Kunyang and
                  Choe, Jaesung and Kozinski, Mateusz and Possegger, Horst and Kweon, In So and Yoon, Kun-Jin and Bischof, Horst},
     title     = {MATE: Masked Autoencoders are Online 3D Test-Time Learners},
-    booktitle = {arXiv preprint arXiv:2211.11432},
+    journal   = {arXiv preprint arXiv:2211.11432},
     year      = {2023}
 }
 ```
-We acknowledge [PointMAE](https://github.com/Pang-Yatian/Point-MAE) for their open source implementation.
+*First 3 authors contributed equally.*
+
+We also acknowledge [PointMAE](https://github.com/Pang-Yatian/Point-MAE) for their open source implementation, which we 
+use extensively in this project. 
