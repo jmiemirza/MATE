@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>ActMAD</title>
+  <link rel="icon" type="image/x-icon" href="static/images/car.png">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">MATE: Masked Autoencoders are Online 3D Test-Time Learners</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="https://jmiemirza.github.io/" target="_blank">M. Jehanzeb Mirza</a><sup>*1</sup>,</span>
+                <span class="author-block">
+                  <a href="https://dlsrbgg33.github.io/" target="_blank">Inkyu Shin</a><sup>*2</sup>,</span>
+                  <span class="author-block">
+                    <a href="https://scholar.google.com/citations?user=JJRr8c8AAAAJ&hl=en" target="_blank">Wei Lin</a><sup>*1</sup>,
+                  </span>
+                <span class="author-block">
+                    Andreas Schriebl<sup>1</sup>,
+                  </span>
+                <span class="author-block">
+                    <a href="https://www.researchgate.net/profile/Kunyang-Sun" target="_blank">Kunyang Sun</a><sup>3</sup>,
+                  </span>
+                <span class="author-block">
+                    <a href="https://sites.google.com/view/jaesungchoe" target="_blank">Jaesung Choe</a><sup>2</sup>,
+                  </span>
+                <span class="author-block">
+                    <a href="https://scholar.google.com/citations?user=oDDqnQ4AAAAJ&hl=en" target="_blank">Mateusz Kozinski</a><sup>1</sup>,
+                  </span>
+              <span class="author-block">
+                    <a href="https://scholar.google.com/citations?user=iWPrl3wAAAAJ&hl=en" target="_blank">Horst Possegger</a><sup>1</sup>,
+                  </span>
+                <span class="author-block">
+                    <a href="https://scholar.google.com/citations?user=XA8EOlEAAAAJ&hl=en" target="_blank">In So Kweon</a><sup>2</sup>,
+                  </span>
+              <span class="author-block">
+                    <a href="https://sites.google.com/site/kjyoon/" target="_blank">Kuk-Jin Yoon</a><sup>2</sup>,
+                  </span>
+              <span class="author-block">
+                    <a href="https://scholar.google.com/citations?user=_pq05Q4AAAAJ&hl=en" target="_blank">Horst Bischof</a><sup>1</sup>
+                  </span>
+                  </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block"><sup>1</sup>Institute for Computer Graphics and Vision, TU Graz, Austria.
+                        <br><sup>2</sup>Korea Advanced Institute of Science and Technology (KAIST), South Korea.
+                        <br><sup>3</sup>Southeast University, China.
+<!--                        <br>ArXiv Pre-Print</span>-->
+                        <br><i>(*Equal Contribution)</i>
+
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- Arxiv PDF link -->
+                      <span class="link-block">
+                        <a href="https://arxiv.org/pdf/2211.12870.pdf" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+
+<!--                    &lt;!&ndash; Supplementary PDF link &ndash;&gt;-->
+<!--                    <span class="link-block">-->
+<!--                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"-->
+<!--                      class="external-link button is-normal is-rounded is-dark">-->
+<!--                      <span class="icon">-->
+<!--                        <i class="fas fa-file-pdf"></i>-->
+<!--                      </span>-->
+<!--                      <span>Supplementary</span>-->
+<!--                    </a>-->
+<!--                  </span>-->
+
+                  <!-- Github link -->
+                  <span class="link-block">
+                    <a href="https://github.com/jmiemirza/MATE" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+
+                <!-- ArXiv abstract Link -->
+<!--                <span class="link-block">-->
+<!--                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"-->
+<!--                  class="external-link button is-normal is-rounded is-dark">-->
+<!--                  <span class="icon">-->
+<!--                    <i class="ai ai-arxiv"></i>-->
+<!--                  </span>-->
+<!--                  <span>Abstract</span>-->
+<!--                </a>-->
+<!--              </span>-->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Teaser video-->
+<!--<section class="hero teaser">-->
+<!--  <div class="container is-max-desktop">-->
+<!--    <div class="hero-body">-->
+<!--      <video poster="" id="tree" autoplay controls muted loop height="100%">-->
+<!--        &lt;!&ndash; Your video here &ndash;&gt;-->
+<!--        <source src="static/videos/corr.mp4"-->
+<!--        type="video/mp4">-->
+<!--      </video>-->
+<!--      <h2 class="subtitle has-text-centered">-->
+<!--        Exemplary ActMAD adaptation results from KITTI-Clear &#8594; KITTI-Fog dataset.-->
+<!--      </h2>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</section>-->
+<!-- End teaser video -->
+
+  <section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <img src="static/images/mate_teaser.jpeg" alt="Image Description" height="100%">
+      <h2 class="subtitle has-text-justified is-size-6">
+        Overview of our Test-Time Training methodology. We
+adapt the encoder to a single out-of-distribution (OOD) test sample
+online by updating its weights using a self-supervised reconstruction task. We then use the updated weights to make a prediction on
+the test sample. To enable this approach, the encoder, decoder, and
+the classifier are co-trained in the classification and reconstruction
+tasks, which is not shown in the figure.
+      </h2>
+    </div>
+  </div>
+</section>
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Our MATE is the first Test-Time-Training (TTT) method
+designed for 3D data, which makes deep networks trained
+for point cloud classification robust to distribution shifts occurring in test data. Like existing TTT methods from the 2D
+image domain, MATE also leverages test data for adaptation.
+Its test-time objective is that of a Masked Autoencoder: a
+large portion of each test point cloud is removed before it is
+fed to the network, tasked with reconstructing the full point
+cloud. Once the network is updated, it is used to classify
+the point cloud. We test MATE on several 3D object classification datasets and show that it significantly improves
+robustness of deep networks to several types of corruptions
+commonly occurring in 3D point clouds. We show that MATE
+is very efficient in terms of the fraction of points it needs for
+the adaptation. It can effectively adapt given as few as 5% of
+tokens of each test sample, making it extremely lightweight.
+Our experiments show that MATE also achieves competitive
+performance by adapting sparsely on the test data, which
+further reduces its computational overhead, making it ideal
+for real-time applications.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+<!-- Image carousel -->
+<!--<section class="hero is-small">-->
+<!--  <div class="hero-body">-->
+<!--    <div class="container">-->
+<!--                  <h2 class="title is-3">Method and Task</h2>-->
+<!--    <div class="level-set has-text-justified">-->
+<!--&lt;!&ndash;                <p>&ndash;&gt;-->
+<!--&lt;!&ndash;                    &ndash;&gt;-->
+<!--&lt;!&ndash;                </p>&ndash;&gt;-->
+<!--      <div id="results-carousel" class="carousel results-carousel">-->
+<!--       <div class="item">-->
+<!--        &lt;!&ndash; Your image here &ndash;&gt;-->
+<!--         <img src="static/images/mate_main.jpeg" alt="MY ALT TEXT" style="width:85%;"/>-->
+
+<!--        <h2 class="subtitle has-text-centered">-->
+<!--          Overview of our 3D Test-Time Training methodology. We build on top of PointMAE. The input point cloud is first tokenized and-->
+<!--then randomly masked. For our setup, we mask 90% of the point cloud. For joint training the visible tokens from the training data are fed to-->
+<!--the encoder to get the latent embeddings from the visible tokens. These embeddings are fed to the classification head for the classification-->
+<!--loss and concatenated with the masked tokens and fed to the decoder for reconstruction to obtain the reconstruction loss. Both losses are-->
+<!--optimized jointly. For adaptation to an out-of-distribution test sample at test-time, we only use the MAE reconstruction task. Finally, after-->
+<!--adapting the encoder on this single sample, evaluation is performed by using the updated encoder weights.-->
+<!--        </h2>-->
+<!--      </div>-->
+<!--      <div class="item">-->
+<!--        &lt;!&ndash; Your image here &ndash;&gt;-->
+<!--        <img src="static/images/teaser.jpg" alt="MY ALT TEXT"  style="width:85%;"/>-->
+<!--        <h2 class="subtitle has-text-centered">-->
+<!--          Continuous online adaptation for ActMAD in changing weather conditions.-->
+<!--        </h2>-->
+<!--  </div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</section>-->
+<!-- End image carousel-->
+
+
+
+
+<!--&lt;!&ndash; Youtube video &ndash;&gt;-->
+<!--<section class="hero is-small is-light">-->
+<!--  <div class="hero-body">-->
+<!--    <div class="container">-->
+<!--      &lt;!&ndash; Paper video. &ndash;&gt;-->
+<!--      <h2 class="title is-3">Video Presentation</h2>-->
+<!--      <div class="columns is-centered has-text-centered">-->
+<!--        <div class="column is-four-fifths">-->
+<!--          -->
+<!--          <div class="publication-video">-->
+<!--            &lt;!&ndash; Youtube embed code here &ndash;&gt;-->
+<!--            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</section>-->
+<!--&lt;!&ndash; End youtube video &ndash;&gt;-->
+
+
+<!--&lt;!&ndash; Video carousel &ndash;&gt;-->
+<!--<section class="hero is-small">-->
+<!--  <div class="hero-body">-->
+<!--    <div class="container">-->
+<!--      <h2 class="title is-3">Another Carousel</h2>-->
+<!--      <div id="results-carousel" class="carousel results-carousel">-->
+<!--        <div class="item item-video1">-->
+<!--          <video poster="" id="video1" autoplay controls muted loop height="100%">-->
+<!--            &lt;!&ndash; Your video file here &ndash;&gt;-->
+<!--            <source src="static/videos/carousel1.mp4"-->
+<!--            type="video/mp4">-->
+<!--          </video>-->
+<!--        </div>-->
+<!--        <div class="item item-video2">-->
+<!--          <video poster="" id="video2" autoplay controls muted loop height="100%">-->
+<!--            &lt;!&ndash; Your video file here &ndash;&gt;-->
+<!--            <source src="static/videos/carousel2.mp4"-->
+<!--            type="video/mp4">-->
+<!--          </video>-->
+<!--        </div>-->
+<!--        <div class="item item-video3">-->
+<!--          <video poster="" id="video3" autoplay controls muted loop height="100%">\-->
+<!--            &lt;!&ndash; Your video file here &ndash;&gt;-->
+<!--            <source src="static/videos/carousel3.mp4"-->
+<!--            type="video/mp4">-->
+<!--          </video>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</section>-->
+<!--&lt;!&ndash; End video carousel &ndash;&gt;-->
+
+
+
+
+
+
+<!-- Paper poster -->
+<!--<section class="hero is-small is-light">-->
+<!--  <div class="hero-body">-->
+<!--    <div class="container">-->
+<!--      <h2 class="title">Poster</h2>-->
+
+<!--      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">-->
+<!--          </iframe>-->
+
+<!--      </div>-->
+<!--    </div>-->
+<!--  </section>-->
+<!--End paper poster -->
+  <section class="hero is-small">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+                          <h2 class="title is-3">Method</h2>
+
+      <img src="static/images/mate_main.jpeg" alt="Image Description" height="20%">
+      <h2 class="subtitle has-text-justified is-size-6">
+        The input point cloud is first tokenized and
+then randomly masked. For our setup, we mask 90% of the point cloud. For joint training the visible tokens from the training data are fed to
+the encoder to get the latent embeddings from the visible tokens. These embeddings are fed to the classification head for the classification
+loss and concatenated with the masked tokens and fed to the decoder for reconstruction to obtain the reconstruction loss. Both losses are
+optimized jointly. For adaptation to an out-of-distribution test sample at test-time, we only use the MAE reconstruction task. Finally, after
+adapting the encoder on this single sample, evaluation is performed by using the updated encoder weights.
+      </h2>
+    </div>
+  </div>
+</section>
+
+    <section class="hero is-small">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+                          <h2 class="title is-3">Corruptions</h2>
+
+      <img src="static/images/corr.jpg" alt="Image Description" height="20%">
+      <h2 class="subtitle has-text-justified is-size-6">
+        We adapt to 15 different types of corruptions which can be commonly occurring in the 3D point cloud data.
+      </h2>
+    </div>
+  </div>
+</section>
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@article{mirza2023mate,
+    author    = {Mirza, M. Jehanzeb and Shin, Inkyu and Lin, Wei and Schriebl, Andreas and Sun, Kunyang and
+                 Choe, Jaesung and Kozinski, Mateusz and Possegger, Horst and Kweon, In So and Yoon, Kun-Jin and Bischof, Horst},
+    title     = {MATE: Masked Autoencoders are Online 3D Test-Time Learners},
+    journal   = {arXiv preprint arXiv:2211.11432},
+    year      = {2023}
+}</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            Acknowledgment for the project page: <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a>.
+<!--            You are free to borrow the of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative-->
+<!--            Commons Attribution-ShareAlike 4.0 International License</a>.-->
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
